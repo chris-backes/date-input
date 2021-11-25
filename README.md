@@ -19,4 +19,3 @@ The core of what the script should look like is the following:
         End With
         
     End If
-    ```
