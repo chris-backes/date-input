@@ -11,7 +11,8 @@ The core of what the script should look like is the following:
 
     If Not Intersect(Target, Range("[Targetted range the user wants timestamps for]")) Is Nothing Then
 
-        With Target([relative coordinate references of where the time should go, with 1 meaning that it stays in the same column or row, and 2 meaning that it moves either down a row or to the left column])
+        With Target([relative coordinate references of where the time should go, with 1 meaning that it 
+        stays in the same column or row, and 2 meaning that it moves either down a row or to the left column])
 
         .Value = Date
 
